@@ -1,0 +1,16 @@
+---
+# commands to block
+cmd:
+- "op"
+- "deop"
+- "sudo"
+- "ver"
+- "version"
+- "pl"
+- "plugins"
+- "makeserver"
+- "extractplugin"
+- "makeplugin"
+- "reload"
+- "usrinfo"
+...
