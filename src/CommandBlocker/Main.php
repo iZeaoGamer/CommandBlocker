@@ -44,7 +44,7 @@ $com = explode(" ", $command);
 foreach($comds as $cmd){
 if($com[0] == "/" . $cmd or $com[0] == "./" . $cmd){
 $event->setCancelled(true);
-$event->getPlayer()->sendMessage("[CommandBlocker] Command blocked. Plugin by ArceusMatt.");
+$event->getPlayer()->sendMessage("§§cThis command has been blocked by the server.");
 }
 }
 }
